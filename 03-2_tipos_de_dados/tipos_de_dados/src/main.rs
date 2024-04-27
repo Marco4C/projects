@@ -52,4 +52,9 @@ fn main() {
     println!("{}", seis_ponto_quatro);
     let um = x.2;    
     println!("{}", um);
+
+    let a = [1, 2, 3, 4, 5];
+
+    let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
+              "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 }
