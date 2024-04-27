@@ -45,16 +45,39 @@ fn main() {
     // O valor do z é: 1
 
     let x: (i32, f64, u8) = (500, 6.4, 1);
-    
+
     let quinhentos = x.0;
     println!("{}", quinhentos);
     let seis_ponto_quatro = x.1;
     println!("{}", seis_ponto_quatro);
-    let um = x.2;    
+    let um = x.2;
     println!("{}", um);
 
     let a = [1, 2, 3, 4, 5];
 
-    let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho",
-              "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    let primeiro = a[0];
+    let segundo = a[1];
+
+    let meses = [
+        "Janeiro",
+        "Fevereiro",
+        "Março",
+        "Abril",
+        "Maio",
+        "Junho",
+        "Julho",
+        "Agosto",
+        "Setembro",
+        "Outubro",
+        "Novembro",
+        "Dezembro",
+    ];
+
+    let a = [1, 2, 3, 4, 5];
+    let indice = 10;
+
+    // let elemento = a[indice]; index out of bounds: the length is 5 but the index is 10
+
+    //https://rust-br.github.io/rust-book-pt-br/ch03-02-data-types.html#acesso-inv%C3%A1lido-a-elemento-da-matriz
+    //println!("O valor do elemento é: {}", elemento);
 }
